@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Remainder App</string>
+    <string name="app_name">Reminder App</string>
     <string name="heading_wifi_password">Wifi Password</string>
     <string name="heading_tablet_pin">Tablet PIN</string>
     <string name="heading_bike_lock">Bike Lock</string>
+    <string name="hint_value">value</string>
 </resources>
