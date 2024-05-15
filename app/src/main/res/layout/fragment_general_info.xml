@@ -12,7 +12,7 @@
         android:padding="20dp">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/card_view_wifi"
+            android:id="@+id/card_view_bin_day"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
@@ -23,10 +23,10 @@
 
                 <ImageView
                     style="@style/Icon"
-                    android:id="@+id/image_view_wifi"
+                    android:id="@+id/image_view_bin_day"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/icon_wifi"
+                    android:src="@drawable/icon_delete"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
 
@@ -34,20 +34,20 @@
 
                 <TextView
                     style="@style/Text.Heading"
-                    android:id="@+id/text_view_wifi_heading"
+                    android:id="@+id/text_view_bin_day_heading"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/image_view_wifi"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_bin_day"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:textColor="#8755E0"
-                    android:text="@string/heading_wifi_password"/>
+
+                    android:text="@string/heading_bin_day"/>
 
                 <TextView
                     style="@style/Text.Value"
-                    android:id="@+id/text_view_wifi_value"
-                    app:layout_constraintTop_toBottomOf="@id/text_view_wifi_heading"
-                    app:layout_constraintStart_toStartOf="@id/text_view_wifi_heading"
+                    android:id="@+id/text_view_bin_day_value"
+                    app:layout_constraintTop_toBottomOf="@id/text_view_bin_day_heading"
+                    app:layout_constraintStart_toStartOf="@id/text_view_bin_day_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="19sp"
@@ -58,7 +58,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/card_view_tablet_pin"
+            android:id="@+id/card_view_adhar_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp">
@@ -70,10 +70,10 @@
 
                 <ImageView
                     style="@style/Icon"
-                    android:id="@+id/image_view_tablet_pin"
+                    android:id="@+id/image_view_adhar_number"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/icon_computer"
+                    android:src="@drawable/icon_person"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
 
@@ -81,20 +81,20 @@
 
                 <TextView
                     style="@style/Text.Heading"
-                    android:id="@+id/text_view_tablet_pin_heading"
+                    android:id="@+id/text_view_adhar_number_heading"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/image_view_tablet_pin"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_adhar_number"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:textColor="#8755E0"
-                    android:text="@string/heading_tablet_pin"/>
+
+                    android:text="@string/heading_adhar_number"/>
 
                 <TextView
                     style="@style/Text.Value"
-                    android:id="@+id/text_view_tablet_pin_value"
-                    app:layout_constraintTop_toBottomOf="@id/text_view_tablet_pin_heading"
-                    app:layout_constraintStart_toStartOf="@id/text_view_tablet_pin_heading"
+                    android:id="@+id/text_view_adhar_number_value"
+                    app:layout_constraintTop_toBottomOf="@id/text_view_adhar_number_heading"
+                    app:layout_constraintStart_toStartOf="@id/text_view_adhar_number_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="19sp"
@@ -105,7 +105,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/card_view_bike_lock"
+            android:id="@+id/card_view_birthday_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp">
@@ -117,10 +117,10 @@
 
                 <ImageView
                     style="@style/Icon"
-                    android:id="@+id/image_view_bike_lock"
+                    android:id="@+id/image_view_birthday_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/icon_bike"
+                    android:src="@drawable/icon_cake"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
 
@@ -128,20 +128,20 @@
 
                 <TextView
                     style="@style/Text.Heading"
-                    android:id="@+id/text_view_bike_lock_heading"
+                    android:id="@+id/text_view_birthday_date_heading"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/image_view_bike_lock"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_birthday_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="24dp"
-                    android:textColor="#8755E0"
-                    android:text="@string/heading_bike_lock"/>
+
+                    android:text="@string/heading_birthday_date"/>
 
                 <TextView
                     style="@style/Text.Value"
-                    android:id="@+id/text_view_bike_lock_value"
-                    app:layout_constraintTop_toBottomOf="@id/text_view_bike_lock_heading"
-                    app:layout_constraintStart_toStartOf="@id/text_view_bike_lock_heading"
+                    android:id="@+id/text_view_birthday_date_value"
+                    app:layout_constraintTop_toBottomOf="@id/text_view_birthday_date_heading"
+                    app:layout_constraintStart_toStartOf="@id/text_view_birthday_date_heading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="19sp"

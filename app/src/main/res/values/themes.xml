@@ -3,6 +3,10 @@
     <style name="Base.Theme.RemainderApp" parent="Theme.Material3.DayNight">
         <!-- Customize your light theme here. -->
          <item name="colorPrimary">@color/blue_500</item>
+        <item name="colorOnSurface">@color/blue_grey_900</item>
+        <item name="colorOnSurfaceVariant">@color/blue_grey_400</item>
+        <item name="colorPrimaryContainer">@color/blue_grey_100</item>
+
     </style>
 
     <style name="Theme.RemainderApp" parent="Base.Theme.RemainderApp" />
